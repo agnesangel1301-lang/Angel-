@@ -102,7 +102,7 @@ Add user authentication and avatars.
 
 Author 
 *ANGEL M*
-Email:(liberityqueen1013@ gmail.com)
+Email:(libertyqueen1013@ gmail.com)
 GitHub:(https://github.com/agnesangel1301-lang/Angel-.git)
 ---
 
