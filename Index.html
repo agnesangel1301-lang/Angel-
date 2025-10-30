@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Simple Blog with Comments</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1>My Simple Blog</h1>
+  </header>
+
+  <div class="container">
+    <article>
+      <h2>Welcome to My First Blog Post</h2>
+      <p>
+        This is a simple example of a blog page made with plain HTML, CSS, and JavaScript. 
+        You can add your thoughts below in the comment section. 
+        In a real app, these comments would be saved to a server or database.
+      </p>
+    </article>
+
+    <section class="comment-section">
+      <h3>Comments</h3>
+      <div class="comment-list" id="commentList">
+        <!-- Comments will appear here -->
+      </div>
+
+      <div class="comment-form">
+        <textarea id="commentInput" placeholder="Write your comment..."></textarea>
+        <button id="addCommentBtn">Post Comment</button>
+      </div>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
